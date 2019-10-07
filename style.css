@@ -1,0 +1,52 @@
+.navigation {
+  font-family: Roboto Mono;
+  display: flex;
+  padding-top: 20px;
+  flex-direction: row;
+  width: 100%;
+  column-span: all;
+  justify-content: space-around;
+  margin: auto;
+}
+
+a: {
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-color: #E8E8E8;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%; 
+  z-index: -1;
+}
