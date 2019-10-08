@@ -1,9 +1,10 @@
-.navigation {
-  font-family: Roboto Mono;
-  font-size: 1em;
-  display: flex;
-  justify-content: space-around;
-  padding: 40px 80px;
+nav {
+    font-family: Roboto Mono;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding: 40px 80px;
+    border: none;
 }
 
 img {
@@ -24,16 +25,10 @@ a:visited {
 }
 
 a:hover {
-  text-decoration: none;
-  color: white;
+  color: #E8E8E8;
 }
 
-a:focus {
-  text-decoration: none;
-  color: white;
-}
-
-a:hover, a:active {
+a:active {
   text-decoration: none;
   color: white;
 }
@@ -62,6 +57,14 @@ footer p {
     text-align: center;
     bottom: 0;
     padding: 10px;
+}
+
+footer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12%;
+  padding-bottom: 20px;
 }
 
 #myVideo {
