@@ -43,8 +43,6 @@ body {
 }
 
 footer {
-    bottom: 0;
-    padding-top: 200px;
     text-align: center;
     font-weight: lighter;
 }
@@ -55,16 +53,17 @@ footer p {
     font-weight: lighter;
     color: #FFFFFF;
     text-align: center;
-    bottom: 0;
-    padding: 10px;
+    padding-top: 235px;
 }
 
 footer img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 12%;
-  padding-bottom: 20px;
+  position: fixed;
+  bottom: 0;
+  padding: 0px 630px;
+  width: 1%;
+  height: 1%;
+  padding-bottom: 40px;
 }
 
 #myVideo {
