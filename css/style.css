@@ -1,3 +1,5 @@
+/* Global Styles */
+
 nav {
     font-family: Roboto Mono;
     justify-content: space-between;
@@ -5,14 +7,6 @@ nav {
     flex-direction: row;
     padding: 40px 80px;
     border: none;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 12%;
-  padding-top: 175px;
 }
 
 a: {
@@ -42,6 +36,16 @@ body {
   background-color: #E8E8E8;
 }
 
+/* Homepage */
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12%;
+  padding-top: 175px;
+}
+
 footer {
     text-align: center;
     font-weight: lighter;
@@ -66,7 +70,7 @@ footer img {
   padding-bottom: 40px;
 }
 
-#myVideo {
+.myVideo {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -74,3 +78,19 @@ footer img {
   min-height: 100%; 
   z-index: -1;
 }
+
+/* Step One */
+
+.flowerOne {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.descriptionOne {
+  padding: 20px 20px;
+}
+
