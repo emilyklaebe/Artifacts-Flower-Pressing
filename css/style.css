@@ -34,6 +34,7 @@ a:link {
 
 body {
   background-color: #E8E8E8;
+  height: 1000px;
 }
 
 /* Homepage */
@@ -90,7 +91,59 @@ footer img {
   z-index: -1;
 }
 
+.infoOne {
+  background-color: #E8E8E8;
+  position: fixed;
+  bottom:0;
+  width:100%;
+  height:400px;
+  margin:0;
+  padding:0;
+}
+
 .descriptionOne {
   padding-top: 800px;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+
+.leafOne {
+  width: 360px;
+  height: 360px;
+  padding: 100px;
+  padding-left: 160px;
+}
+
+.grid-item-2 {
+  font-family: Roboto Mono;
+  font-size: 1em;
+  line-height: 22px;
+  font-weight: lighter;
+  padding-right: 160px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+
+.headerOne {
+  font-family: magpie, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  padding-top: 30px;
+  padding-right: 100px;
+}
+
+.headerTwo {
+  font-family: Roboto Mono;
+  padding: 45px 50px 80px 50px;
+}
