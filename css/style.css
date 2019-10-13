@@ -1,7 +1,16 @@
 /* Global Styles */
 
+@font-face {
+font-family: "ISO";
+src: url("../fonts/ISOv0.6-Regular.eot");
+src:
+url("../fonts/ISOv0.6-Regular.woff") format("woff"),
+url("../fonts/ISOv0.6-Regular.otf") format("opentype"),
+url("../fonts/ISOv0.6-Regular.svg#filename") format("svg");
+}
+
 nav {
-    font-family: Roboto Mono;
+    font-family: ISO;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -55,7 +64,7 @@ footer {
 
 footer p {
     font-size: 1em;
-    font-family: Roboto Mono;
+    font-family: ISO;
     font-weight: lighter;
     color: #FFFFFF;
     text-align: center;
@@ -121,7 +130,7 @@ footer img {
 }
 
 .instruction {
-  font-family: Roboto Mono;
+  font-family: ISO;
   font-size: 1em;
   line-height: 22px;
   font-weight: lighter;
@@ -145,7 +154,7 @@ footer img {
 }
 
 .headerTwo {
-  font-family: Roboto Mono;
+  font-family: ISO;
   padding: 75px 180px 30px 255px;
 }
 
