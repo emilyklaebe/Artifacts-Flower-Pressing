@@ -113,10 +113,6 @@ footer img {
   z-index: -1;
 }
 
-.descriptionOne {
-  padding-top: 800px;
-}
-
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -164,4 +160,53 @@ hr {
   margin-bottom: 0.5em;
   border-style: inset;
   border-width: .5px;
+}
+
+/* Step Two */
+
+.flowerTwo {
+  position: fixed;
+  background-position: top center;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  height: 800px;
+  z-index: -1;
+}
+
+.infoTwo {
+  background-color: #D6D6D6;
+  position: fixed;
+  bottom:0;
+  width:100%;
+  height:575px;
+  margin:0;
+  padding:0;
+  z-index: -1;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+
+.leafTwo {
+  transform: rotate(-10deg);
+  width: 200px;
+  height: 420px;
+  padding: 0px 100px 100px 300px;
+}
+
+.instruction {
+  font-family: ISO;
+  font-size: 1em;
+  line-height: 22px;
+  font-weight: lighter;
+  padding: 20px 160px 100px 20px;
+}
+
+.listTwo {
+  list-style-type: decimal;
+  padding-left: 28px;
 }
