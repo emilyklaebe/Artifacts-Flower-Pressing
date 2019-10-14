@@ -10,12 +10,12 @@ url("../fonts/ISOv0.6-Regular.svg#filename") format("svg");
 }
 
 nav {
-    font-family: ISO;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-    padding: 40px 80px;
-    border: none;
+  font-family: ISO;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  padding: 40px 80px;
+  border: none;
 }
 
 a: {
@@ -193,20 +193,72 @@ hr {
 
 .leafTwo {
   transform: rotate(-10deg);
-  width: 200px;
-  height: 420px;
-  padding: 0px 100px 100px 300px;
+  width: 280px;
+  height: 500px;
+  padding: 0px 200px 60px 100px;
 }
 
-.instruction {
+.instructionTwo {
   font-family: ISO;
   font-size: 1em;
   line-height: 22px;
   font-weight: lighter;
-  padding: 20px 160px 100px 20px;
+  padding: 20px 100px 100px 200px;
 }
 
 .listTwo {
+  list-style-type: decimal;
+  padding-left: 28px;
+}
+
+/* Step Three */
+
+.flowerThree {
+  position: fixed;
+  background-position: top center;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  height: 800px;
+  z-index: -1;
+}
+
+.headerTwoThree {
+  font-family: ISO;
+  padding: 75px 180px 30px 240px;
+}
+
+.infoThree {
+  background-color: #D6D6D6;
+  position: fixed;
+  bottom:0;
+  width:100%;
+  height:575px;
+  margin:0;
+  padding:0;
+  z-index: -1;
+}
+
+.leafThree {
+  width: 100%;
+  height: 100%;
+  padding: 0px 100px 100px 300px;
+  margin: auto;
+}
+
+.leafFour {
+  width: 100%;
+  height: 100%;
+  padding: 0px 100px 100px 300px;
+  margin: auto;
+}
+
+.listThree {
+  list-style-type: decimal;
+  padding-left: 28px;
+}
+
+.listFour {
   list-style-type: decimal;
   padding-left: 28px;
 }
