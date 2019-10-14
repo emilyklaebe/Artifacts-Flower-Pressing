@@ -206,6 +206,26 @@ hr {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   position: absolute;
+  width: 100%;
+}
+
+.greyLogo {
+  height: 10%;
+  width: 6.6%;
+  position: absolute;
+  padding: 40px 80px 35px 80px;
+}
+
+.about {
+  padding: 40px 80px 40px 0px;
+  font-family: ISO-Light;
+  color: #939598;
+}
+
+.copyright {
+  padding: 40px 80px 40px 40px;
+  font-family: ISO-Light; 
+  color: #939598;
 }
 
 /* Step Two */
