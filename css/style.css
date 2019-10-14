@@ -66,12 +66,12 @@ img {
   padding-top: 175px;
 }
 
-footer {
+.footerMain {
     text-align: center;
     font-weight: lighter;
 }
 
-footer p {
+.footerMainDescrip {
     font-size: 1em;
     font-family: ISO;
     font-weight: lighter;
@@ -80,7 +80,7 @@ footer p {
     padding-top: 235px;
 }
 
-footer img {
+.footerMainImage {
   display: block;
   position: fixed;
   bottom: 0;
@@ -210,22 +210,30 @@ hr {
 }
 
 .greyLogo {
-  height: 10%;
-  width: 6.6%;
+  height: 35%;
+  width: 8%;
   position: absolute;
-  padding: 40px 80px 35px 80px;
+  padding: 35px 80px 40px 80px;
 }
 
 .about {
-  padding: 40px 80px 40px 0px;
+  padding: 40px 80px 35px 0px;
   font-family: ISO-Light;
   color: #939598;
 }
 
 .copyright {
-  padding: 40px 80px 40px 40px;
+  padding: 40px 80px 35px 40px;
   font-family: ISO-Light; 
-  color: #939599;
+  color: #939598;
+}
+
+.footerLink:hover {
+  content: url(file:///Users/emilyklaebe/Desktop/Coding/Project-One-Playground/images/artifacts-black-logo.png);
+  height: 35%;
+  width: 8%;
+  position: absolute;
+  padding: 35px 80px 40px 80px;
 }
 
 /* Step Two */
