@@ -9,6 +9,15 @@ url("../fonts/ISOv0.6-Regular.otf") format("opentype"),
 url("../fonts/ISOv0.6-Regular.svg#filename") format("svg");
 }
 
+@font-face {
+font-family: "ISO-Light";
+src: url("../fonts/ISOv0.6-Light.eot");
+src:
+url("../fonts/ISOv0.6-Light.woff") format("woff"),
+url("../fonts/ISOv0.6-Light.otf") format("opentype"),
+url("../fonts/ISOv0.6-Light.svg#filename") format("svg");
+}
+
 nav {
   font-family: ISO;
   justify-content: space-between;
@@ -27,16 +36,16 @@ a:visited {
   color: white;
 }
 
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
 a:hover {
   color: #D6D6D6;
 }
 
 a:active {
-  text-decoration: none;
-  color: white;
-}
-
-a:link {
   text-decoration: none;
   color: white;
 }
@@ -90,6 +99,34 @@ footer img {
   z-index: -1;
 }
 
+/* About */
+
+.aboutGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.aboutBody {
+  font-family: ISO-Light;
+  font-size: 1em;
+  line-height: 22px;
+  font-weight: lighter;
+  padding-top: 50px;
+}
+
+.aboutFlowerOne {
+  height: auto;
+  width: auto;
+  padding: 10px;
+  transform: scale(3);
+}
+
+.aboutFlowerTwo {
+  height: auto;
+  width: auto;
+  transform: scale(2);
+}
+
 /* Step One */
 
 .flowerOne {
@@ -126,7 +163,7 @@ footer img {
 }
 
 .instruction {
-  font-family: ISO;
+  font-family: ISO-Light;
   font-size: 1em;
   line-height: 22px;
   font-weight: lighter;
@@ -161,6 +198,16 @@ hr {
   border-style: inset;
   border-width: .5px;
 }
+/*
+.footer {
+  background-color: #D6D6D6;
+  font-family: ISO;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+*/
 
 /* Step Two */
 
@@ -199,7 +246,7 @@ hr {
 }
 
 .instructionTwo {
-  font-family: ISO;
+  font-family: ISO-Light;
   font-size: 1em;
   line-height: 22px;
   font-weight: lighter;
@@ -228,6 +275,13 @@ hr {
   padding: 75px 180px 30px 240px;
 }
 
+.grid-containerThree {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  grid-gap: 40px;
+}
+
 .infoThree {
   background-color: #D6D6D6;
   position: fixed;
@@ -240,15 +294,15 @@ hr {
 }
 
 .instructionThree {
-  font-family: ISO;
+  font-family: ISO-Light;
   font-size: 1em;
   line-height: 22px;
   font-weight: lighter;
-  padding: 20px 100px 100px 200px;
+  padding: 20px 40px 100px 200px;
 }
 
 .columnTwo {
-  font-family: ISO;
+  font-family: ISO-Light;
   font-size: 1em;
   line-height: 22px;
   font-weight: lighter;
@@ -256,10 +310,9 @@ hr {
 }
 
 .leafThree {
-  width: 100px;
-  height: 290px;
-  padding: 10px 200px 0px 0px;
-  transform: rotate(90deg);
+  width: 290px;
+  height: 100px;
+  padding: 10px 0px 0px 0px;
 }
 
 .listThree {
