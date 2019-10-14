@@ -239,26 +239,30 @@ hr {
   z-index: -1;
 }
 
-.leafThree {
-  width: 100%;
-  height: 100%;
-  padding: 0px 100px 100px 300px;
-  margin: auto;
+.instructionThree {
+  font-family: ISO;
+  font-size: 1em;
+  line-height: 22px;
+  font-weight: lighter;
+  padding: 20px 100px 100px 200px;
 }
 
-.leafFour {
-  width: 100%;
-  height: 100%;
-  padding: 0px 100px 100px 300px;
-  margin: auto;
+.columnTwo {
+  font-family: ISO;
+  font-size: 1em;
+  line-height: 22px;
+  font-weight: lighter;
+  padding: 130px 200px 100px 0px;
+}
+
+.leafThree {
+  width: 100px;
+  height: 290px;
+  padding: 10px 200px 0px 0px;
+  transform: rotate(90deg);
 }
 
 .listThree {
-  list-style-type: decimal;
-  padding-left: 28px;
-}
-
-.listFour {
   list-style-type: decimal;
   padding-left: 28px;
 }
