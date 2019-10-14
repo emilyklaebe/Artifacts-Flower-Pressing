@@ -141,7 +141,7 @@ footer img {
 
 .infoOne {
   background-color: #D6D6D6;
-  position: fixed;
+  position: static;
   bottom:0;
   width:100%;
   height:575px;
@@ -181,14 +181,14 @@ footer img {
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
-  padding-top: 60px;
+  padding-top: 30px;
   padding-left: 190px;
   padding-bottom: -50px;
 }
 
 .headerTwo {
   font-family: ISO;
-  padding: 75px 180px 30px 255px;
+  padding: 45px 180px 30px 255px;
 }
 
 hr {
@@ -197,17 +197,16 @@ hr {
   margin-bottom: 0.5em;
   border-style: inset;
   border-width: .5px;
+  border-color: black;
 }
-/*
-.footer {
+
+.footerOne {
   background-color: #D6D6D6;
-  font-family: ISO;
-  padding: 20px;
+  font-family: ISO-Light;
   display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: absolute;
 }
-*/
 
 /* Step Two */
 
@@ -223,7 +222,7 @@ hr {
 
 .infoTwo {
   background-color: #D6D6D6;
-  position: fixed;
+  position: static;
   bottom:0;
   width:100%;
   height:575px;
@@ -284,7 +283,7 @@ hr {
 
 .infoThree {
   background-color: #D6D6D6;
-  position: fixed;
+  position: static;
   bottom:0;
   width:100%;
   height:575px;
