@@ -27,10 +27,6 @@ nav {
   border: none;
 }
 
-a: {
-  color: white;
-}
-
 a:visited {
   text-decoration: none;
   color: white;
@@ -235,6 +231,11 @@ hr {
   position: absolute;
   padding: 35px 80px 40px 80px;
 }
+
+/*
+.footerAboutLink:hover {
+  color: black;
+} */
 
 /* Step Two */
 
