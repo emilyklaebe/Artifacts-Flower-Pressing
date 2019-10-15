@@ -232,11 +232,6 @@ hr {
   padding: 35px 80px 0px 80px;
 }
 
-/*
-.footerAboutLink:hover {
-  color: black;
-} */
-
 /* Step Two */
 
 .flowerTwo {
@@ -300,7 +295,7 @@ hr {
 
 .headerTwoThree {
   font-family: ISO;
-  padding: 75px 180px 30px 240px;
+  padding: 45px 180px 30px 240px;
 }
 
 .grid-containerThree {
