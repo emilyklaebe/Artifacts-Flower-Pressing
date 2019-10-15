@@ -263,9 +263,9 @@ hr {
 
 .leafTwo {
   transform: rotate(-10deg);
-  width: 280px;
-  height: 500px;
-  padding: 0px 200px 60px 100px;
+  width: 25%;
+  height: 95%;
+  padding: 0px 300px 0px 100px;
 }
 
 .instructionTwo {
@@ -273,7 +273,7 @@ hr {
   font-size: 1em;
   line-height: 22px;
   font-weight: lighter;
-  padding: 20px 100px 100px 200px;
+  padding: 20px 0px 0px 200px;
 }
 
 .listTwo {
