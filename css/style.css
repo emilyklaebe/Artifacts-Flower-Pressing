@@ -321,7 +321,7 @@ hr {
   font-size: 1em;
   line-height: 22px;
   font-weight: lighter;
-  padding: 20px 40px 100px 200px;
+  padding: 20px 40px 0px 200px;
 }
 
 .columnTwo {
@@ -329,10 +329,11 @@ hr {
   font-size: 1em;
   line-height: 22px;
   font-weight: lighter;
-  padding: 130px 200px 100px 0px;
+  padding: 130px 200px 0px 0px;
 }
 
 .leafThree {
+  background-color: #D6D6D6;
   width: 290px;
   height: 100px;
   padding: 10px 0px 0px 0px;
