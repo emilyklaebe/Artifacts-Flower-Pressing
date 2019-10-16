@@ -160,7 +160,33 @@ img {
   grid-template-columns: 1fr 1fr 1fr;
   position: absolute;
   width: 100%;
-  padding-top: 70px;
+}
+
+.greyLogoAbout {
+  height: 25%;
+  width: 8%;
+  position: absolute;
+  padding: 90px 80px 0px 80px;
+}
+
+.aboutAbout {
+  padding: 100px 80px 35px 0px;
+  font-family: ISO-Light;
+  color: #939598;
+}
+
+.copyrightAbout {
+  padding: 100px 80px 35px 40px;
+  font-family: ISO-Light; 
+  color: #939598;
+}
+
+.footerLinkAbout:hover {
+  content: url(file:///Users/emilyklaebe/Desktop/Coding/Project-One-Playground/images/artifacts-black-logo.png);
+  height: 25%;
+  width: 8%;
+  position: absolute;
+  padding: 90px 80px 0px 80px;
 }
 
 /* Step One */
