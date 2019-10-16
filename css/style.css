@@ -18,6 +18,15 @@ url("../fonts/ISOv0.6-Light.otf") format("opentype"),
 url("../fonts/ISOv0.6-Light.svg#filename") format("svg");
 }
 
+@font-face {
+font-family: "ISO-Medium";
+src: url("../fonts/ISOv0.6-Medium.eot");
+src:
+url("../fonts/ISOv0.6-Medium.woff") format("woff"),
+url("../fonts/ISOv0.6-Medium.otf") format("opentype"),
+url("../fonts/ISOv0.6-Medium.svg#filename") format("svg");
+}
+
 nav {
   font-family: ISO;
   justify-content: space-between;
