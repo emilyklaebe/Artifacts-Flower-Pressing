@@ -37,8 +37,22 @@ a:link {
   color: white;
 }
 
-a:hover {
-  color: #D6D6D6;
+.link1:hover {
+  content: url(file:///Users/emilyklaebe/Desktop/Coding/Project-One-Playground/images/01-underline.png);
+  width: 35px;
+  height: 20px;
+}
+
+.link2:hover {
+  content: url(file:///Users/emilyklaebe/Desktop/Coding/Project-One-Playground/images/02-underline.png);
+  width: 35px;
+  height: 20px;
+}
+
+.link3:hover {
+  content: url(file:///Users/emilyklaebe/Desktop/Coding/Project-One-Playground/images/03-underline.png);
+  width: 35px;
+  height: 20px;
 }
 
 a:active {
@@ -232,6 +246,16 @@ hr {
   padding: 35px 80px 0px 80px;
 }
 
+.footerThree {
+  background-color: #D6D6D6;
+  font-family: ISO-Light;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: absolute;
+  width: 100%;
+  top: 1194px;
+}
+
 /* Step Two */
 
 .flowerTwo {
@@ -332,11 +356,16 @@ hr {
   padding: 130px 200px 0px 0px;
 }
 
+.leafContainerThree {
+  background-color: #D6D6D6;
+  width: 100%;
+}
+
 .leafThree {
   background-color: #D6D6D6;
   width: 290px;
   height: 100px;
-  padding: 10px 0px 0px 0px;
+  padding: 10px 525px 0px 0px;
 }
 
 .listThree {
