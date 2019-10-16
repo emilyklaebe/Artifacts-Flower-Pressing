@@ -64,6 +64,10 @@ a:link {
   height: 20px;
 }
 
+.about:hover {
+  color: black;
+}
+
 a:active {
   text-decoration: none;
   color: white;
@@ -122,7 +126,8 @@ img {
 
 .aboutGrid {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  justify-content: center;
 }
 
 .aboutBody {
@@ -131,19 +136,31 @@ img {
   line-height: 22px;
   font-weight: lighter;
   padding-top: 50px;
+  text-align: justify;
 }
 
-.aboutFlowerOne {
-  height: auto;
-  width: auto;
-  padding: 10px;
-  transform: scale(3);
+.aboutFlowerOnePic {
+  height: 300px;
+  width: 200px;
+  padding-top: 50px;
+  padding-left: 50px;
 }
 
-.aboutFlowerTwo {
-  height: auto;
-  width: auto;
-  transform: scale(2);
+.aboutFlowerTwoPic {
+  height: 300px;
+  width: 100px;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.footerAboutPage {
+  background-color: #D6D6D6;
+  font-family: ISO-Light;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: absolute;
+  width: 100%;
+  padding-top: 70px;
 }
 
 /* Step One */
@@ -184,6 +201,7 @@ img {
 .instruction {
   font-family: ISO-Light;
   font-size: 1em;
+  text-align: justify;
   line-height: 22px;
   font-weight: lighter;
   padding: 20px 160px 100px 20px;
@@ -304,6 +322,7 @@ hr {
 .instructionTwo {
   font-family: ISO-Light;
   font-size: 1em;
+  text-align: justify;
   line-height: 22px;
   font-weight: lighter;
   padding: 20px 0px 0px 200px;
@@ -312,6 +331,7 @@ hr {
 .listTwo {
   list-style-type: decimal;
   padding-left: 28px;
+  text-align: justify;
 }
 
 /* Step Three */
@@ -352,6 +372,7 @@ hr {
 .instructionThree {
   font-family: ISO-Light;
   font-size: 1em;
+  text-align: justify;
   line-height: 22px;
   font-weight: lighter;
   padding: 20px 40px 0px 200px;
@@ -380,4 +401,5 @@ hr {
 .listThree {
   list-style-type: decimal;
   padding-left: 28px;
+  text-align: justify;
 }
