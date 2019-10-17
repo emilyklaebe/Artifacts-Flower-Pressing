@@ -163,7 +163,7 @@ img {
 }
 
 .greyLogoAbout {
-  height: 25%;
+  height: 22%;
   width: 8%;
   position: absolute;
   padding: 90px 80px 0px 80px;
@@ -183,7 +183,7 @@ img {
 
 .footerLinkAbout:hover {
   content: url(file:///Users/emilyklaebe/Desktop/Coding/Project-One-Playground/images/artifacts-black-logo.png);
-  height: 25%;
+  height: 22%;
   width: 8%;
   position: absolute;
   padding: 90px 80px 0px 80px;
