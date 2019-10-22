@@ -1,30 +1,30 @@
 /* Global Styles */
 
 @font-face {
-font-family: "ISO";
-src: url("../fonts/ISOv0.6-Regular.eot");
-src:
-url("../fonts/ISOv0.6-Regular.woff") format("woff"),
-url("../fonts/ISOv0.6-Regular.otf") format("opentype"),
-url("../fonts/ISOv0.6-Regular.svg#filename") format("svg");
+  font-family: "ISO";
+  src: url("../fonts/ISOv0.6-Regular.eot");
+  src:
+  url("../fonts/ISOv0.6-Regular.woff") format("woff"),
+  url("../fonts/ISOv0.6-Regular.otf") format("opentype"),
+  url("../fonts/ISOv0.6-Regular.svg#filename") format("svg");
 }
 
 @font-face {
-font-family: "ISO-Light";
-src: url("../fonts/ISOv0.6-Light.eot");
-src:
-url("../fonts/ISOv0.6-Light.woff") format("woff"),
-url("../fonts/ISOv0.6-Light.otf") format("opentype"),
-url("../fonts/ISOv0.6-Light.svg#filename") format("svg");
+  font-family: "ISO-Light";
+  src: url("../fonts/ISOv0.6-Light.eot");
+  src:
+  url("../fonts/ISOv0.6-Light.woff") format("woff"),
+  url("../fonts/ISOv0.6-Light.otf") format("opentype"),
+  url("../fonts/ISOv0.6-Light.svg#filename") format("svg");
 }
 
 @font-face {
-font-family: "ISO-Medium";
-src: url("../fonts/ISOv0.6-Medium.eot");
-src:
-url("../fonts/ISOv0.6-Medium.woff") format("woff"),
-url("../fonts/ISOv0.6-Medium.otf") format("opentype"),
-url("../fonts/ISOv0.6-Medium.svg#filename") format("svg");
+  font-family: "ISO-Medium";
+  src: url("../fonts/ISOv0.6-Medium.eot");
+  src:
+  url("../fonts/ISOv0.6-Medium.woff") format("woff"),
+  url("../fonts/ISOv0.6-Medium.otf") format("opentype"),
+  url("../fonts/ISOv0.6-Medium.svg#filename") format("svg");
 }
 
 nav {
@@ -100,17 +100,17 @@ img {
 }
 
 .footerMain {
-    text-align: center;
-    font-weight: lighter;
+  text-align: center;
+  font-weight: lighter;
 }
 
 .footerMainDescrip {
-    font-size: 1em;
-    font-family: ISO;
-    font-weight: lighter;
-    color: #FFFFFF;
-    text-align: center;
-    padding-top: 235px;
+  font-size: 1em;
+  font-family: ISO;
+  font-weight: lighter;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 235px;
 }
 
 .footerMainImage {
