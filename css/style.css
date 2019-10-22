@@ -74,6 +74,10 @@ a:link {
   color: black;
 }
 
+.aboutAbout:hover {
+  color: black;
+}
+
 a:active {
   text-decoration: none;
   color: white;
@@ -446,4 +450,12 @@ hr {
   padding: 45px 180px 30px 240px;
 }
 
+.instructionFour {
+  font-family: ISO-Light;
+  font-size: 1em;
+  text-align: justify;
+  line-height: 22px;
+  font-weight: lighter;
+  padding: 20px 180px 100px 20px;
+}
 
