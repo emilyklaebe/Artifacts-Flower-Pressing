@@ -64,6 +64,12 @@ a:link {
   height: 20px;
 }
 
+.link4:hover {
+  content: url(file:///Users/emilyklaebe/Desktop/Coding/Project-One-Playground/images/04-underline.png);
+  width: 30px;
+  height: 19px;
+}
+
 .about:hover {
   color: black;
 }
@@ -432,3 +438,12 @@ hr {
   padding-left: 28px;
   text-align: justify;
 }
+
+/* Step Four */
+
+.headerTwoFour {
+  font-family: ISO;
+  padding: 45px 180px 30px 240px;
+}
+
+
