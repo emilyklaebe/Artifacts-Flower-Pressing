@@ -36,6 +36,69 @@ nav {
   border: none;
 }
 
+body {
+  background-color: #D6D6D6;
+  max-height: 1400px;
+  scroll-behavior: smooth;
+}
+
+/* Link Navigation */
+
+.linknav:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.linknav:link {
+  text-decoration: none;
+  color: white;
+}
+
+.linknav:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.linknav:active {
+  text-decoration: none;
+  color: white;
+}
+
+/* Home Page Footer Links */
+
+.footerMainDescrip:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.footerMainDescrip:link {
+  text-decoration: none;
+  color: white;
+}
+
+.footerMainDescrip:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.footerMainDescrip:active {
+  text-decoration: none;
+  color: white;
+}
+
+.footerMainImage:hover {
+  content: url(../images/down-arrow-black.png);
+  display: block;
+  position: fixed;
+  bottom: 0;
+  padding: 0px 630px;
+  width: 1%;
+  height: 1%;
+  padding-bottom: 40px;
+}
+
+/* General Links */
+
 a:visited {
   text-decoration: none;
   color: white;
@@ -46,43 +109,9 @@ a:link {
   color: white;
 }
 
-.link1:hover {
-  content: url(file:///Users/emilyklaebe/Desktop/Coding/Project-One-Playground/images/01-underline.png);
-  width: 35px;
-  height: 20px;
-}
-
-.link2:hover {
-  content: url(file:///Users/emilyklaebe/Desktop/Coding/Project-One-Playground/images/02-underline.png);
-  width: 35px;
-  height: 20px;
-}
-
-.link3:hover {
-  content: url(file:///Users/emilyklaebe/Desktop/Coding/Project-One-Playground/images/03-underline.png);
-  width: 35px;
-  height: 20px;
-}
-
-.link4:hover {
-  content: url(file:///Users/emilyklaebe/Desktop/Coding/Project-One-Playground/images/04-underline.png);
-  width: 30px;
-  height: 19px;
-}
-
-.about:hover {
-  color: black;
-}
-
 a:active {
   text-decoration: none;
   color: white;
-}
-
-body {
-  background-color: #D6D6D6;
-  max-height: 1400px;
-  scroll-behavior: smooth;
 }
 
 /* Homepage */
