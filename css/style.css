@@ -303,7 +303,7 @@ hr {
 }
 
 .footerLink:hover {
-  content: url(file:///Users/emilyklaebe/Desktop/Coding/Project-One-Playground/images/artifacts-black-logo.png);
+  content: url(../images/artifacts-black-logo.png);
   height: 35%;
   width: 8%;
   position: absolute;
@@ -456,12 +456,45 @@ hr {
   text-align: justify;
   line-height: 22px;
   font-weight: lighter;
-  padding: 20px 180px 100px 20px;
+  padding: 20px 180px 100px 60px;
 }
 
 .leafFour {
-  width: 95px;
-  height: 320px;
-  padding: 0px 50px 100px 220px;
+  width: 300px;
+  height: 420px;
+  padding: 0px 50px 100px 200px;
+}
+
+.listFour {
+  list-style-type: decimal;
+  padding-left: 28px;
+  text-align: justify;
+  line-height: 32px;
+}
+
+/* Step Four Links */
+
+.linkStepFour:visited {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}
+
+.linkStepFour:link {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}
+
+.linkStepFour:hover {
+  text-decoration: none;
+  color: #939598;
+  font-weight: lighter;
+}
+
+.linkStepFour:active {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
 }
 
