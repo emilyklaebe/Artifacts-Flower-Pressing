@@ -74,10 +74,6 @@ a:link {
   color: black;
 }
 
-.aboutAbout:hover {
-  color: black;
-}
-
 a:active {
   text-decoration: none;
   color: white;
@@ -192,11 +188,37 @@ img {
 }
 
 .footerLinkAbout:hover {
-  content: url(file:///Users/emilyklaebe/Desktop/Coding/Project-One-Playground/images/artifacts-black-logo.png);
+  content: url(../images/artifacts-black-logo.png);
   height: 22%;
   width: 8%;
   position: absolute;
   padding: 90px 80px 0px 80px;
+}
+
+/* About Link */
+
+.aboutLink:visited {
+  text-decoration: none;
+  color: #939598;
+  font-weight: lighter;
+}
+
+.aboutLink:link {
+  text-decoration: none;
+  color: #939598;
+  font-weight: lighter;
+}
+
+.aboutLink:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}
+
+.aboutLink:active {
+  text-decoration: none;
+  color: #939598;
+  font-weight: lighter;
 }
 
 /* Step One */
