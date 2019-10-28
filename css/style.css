@@ -48,6 +48,13 @@
   margin-top: -154px;
 }
 
+.linkImage1:hover {
+  content: url(images/01-yellow.png);
+  width: 100%;
+  transform: scale(1.5, 1.5);
+  margin-top: -180px;
+}
+
 /*
 nav {
   font-family: ISO;
@@ -144,7 +151,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 12%;
-  padding-top: 175px;
+  padding-top: 183px;
 }
 
 .footerMain {
@@ -158,7 +165,7 @@ img {
   font-weight: lighter;
   color: #FFFFFF;
   text-align: center;
-  padding-top: 235px;
+  padding-top: 216px;
 }
 
 .footerMainImage {
@@ -386,22 +393,12 @@ hr {
   padding: 35px 80px 0px 80px;
 }
 
-.footerThree {
-  background-color: #D6D6D6;
-  font-family: ISO-Light;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  position: absolute;
-  width: 100%;
-  top: 1194px;
-}
-
 /* Step Two */
 
 .flowerTwo {
   position: fixed;
   background-position: top center;
-  top: -175px;
+  top: -185px;
   right: 0;
   bottom: 0;
   min-width: 100%;
@@ -510,13 +507,23 @@ hr {
   background-color: #D6D6D6;
   width: 290px;
   height: 100px;
-  padding: 10px 525px 0px 0px;
+  padding: 0px 525px 100px 0px;
 }
 
 .listThree {
   list-style-type: decimal;
   padding-left: 28px;
   text-align: justify;
+}
+
+.footerThree {
+  background-color: #D6D6D6;
+  font-family: ISO-Light;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: absolute;
+  width: 100%;
+  top: 1230px;
 }
 
 /* Step Four */
