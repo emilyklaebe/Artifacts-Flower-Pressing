@@ -32,16 +32,20 @@
   justify-content: space-between;
   flex-direction: row;
   border: none;
+  padding-bottom: 35px;
+  padding-top: 20px;
 }
 
 .linkImage {
   width: 100%;
-  transform: scale(1.7, 1.7);
+  transform: scale(1.5, 1.5);
+  margin-top: -180px;
 }
 
 .linkImageLogo {
   width: 100%;
-  transform: scale(.75, .75);
+  transform: scale(1, 1);
+  margin-top: -154px;
 }
 
 /*
@@ -233,6 +237,7 @@ img {
   padding: 100px 80px 35px 40px;
   font-family: ISO-Light; 
   color: #939598;
+  font-size: 12px;
 }
 
 .footerLinkAbout:hover {
@@ -370,6 +375,7 @@ hr {
   padding: 40px 80px 35px 40px;
   font-family: ISO-Light; 
   color: #939598;
+  font-size: 12px;
 }
 
 .footerLink:hover {
