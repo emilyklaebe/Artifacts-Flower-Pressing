@@ -36,6 +36,18 @@
   padding-top: 20px;
 }
 
+.linknavMain {
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  justify-content: space-between;
+  flex-direction: row;
+  border: none;
+  padding-bottom: 35px;
+  padding-top: 20px;
+  top: 0;
+}
+
 .linkImage {
   width: 100%;
   transform: scale(1.5, 1.5);
@@ -166,11 +178,11 @@ img {
   color: #FFFFFF;
   text-align: center;
   padding-top: 216px;
+  padding-bottom: 8px;
 }
 
 .footerMainImage {
   display: block;
-  position: fixed;
   bottom: 0;
   padding: 0px 630px 0px 633px;
   width: 1%;
@@ -185,6 +197,20 @@ img {
   min-width: 100%;
   min-height: 100%; 
   z-index: -1;
+}
+
+.containerMain {
+  background-color: #D6D6D6;
+  min-width: 1260px;
+  min-height: 490px;
+  width:100%;
+}
+
+.aboutGridMain {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  justify-content: center;
+  padding-top: 100px;
 }
 
 /* About */
@@ -202,6 +228,7 @@ img {
   font-weight: lighter;
   padding-top: 50px;
   text-align: justify;
+  background-color: #D6D6D6;
 }
 
 .aboutFlowerOnePic {
@@ -209,6 +236,7 @@ img {
   width: 200px;
   padding-top: 50px;
   padding-left: 50px;
+  background-color: #D6D6D6;
 }
 
 .aboutFlowerTwoPic {
@@ -216,6 +244,7 @@ img {
   width: 100px;
   padding-top: 50px;
   padding-right: 50px;
+  background-color: #D6D6D6;
 }
 
 .footerAboutPage {
