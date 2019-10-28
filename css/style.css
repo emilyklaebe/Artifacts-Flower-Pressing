@@ -27,6 +27,24 @@
   url("../fonts/ISOv0.6-Medium.svg#filename") format("svg");
 }
 
+.linknav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border: none;
+}
+
+.linkImage {
+  width: 100%;
+  transform: scale(1.7, 1.7);
+}
+
+.linkImageLogo {
+  width: 100%;
+  transform: scale(.75, .75);
+}
+
+/*
 nav {
   font-family: ISO;
   justify-content: space-between;
@@ -35,6 +53,7 @@ nav {
   padding: 40px 80px;
   border: none;
 }
+*/
 
 body {
   background-color: #D6D6D6;
@@ -142,7 +161,7 @@ img {
   display: block;
   position: fixed;
   bottom: 0;
-  padding: 0px 630px;
+  padding: 0px 630px 0px 633px;
   width: 1%;
   height: 1%;
   padding-bottom: 40px;
