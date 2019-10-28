@@ -84,6 +84,10 @@ body {
   scroll-behavior: smooth;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Link Navigation */
 
 .linknav:visited {
@@ -202,7 +206,7 @@ img {
 .containerMain {
   background-color: #D6D6D6;
   min-width: 1260px;
-  min-height: 490px;
+  min-height: 554px;
   width:100%;
 }
 
@@ -210,7 +214,20 @@ img {
   display: grid;
   grid-template-columns: 1fr 1.5fr 1fr;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 110px;
+}
+
+.scroll {
+  scroll-behavior: smooth;
+}
+
+.footerOneMain {
+  background-color: #D6D6D6;
+  font-family: ISO-Light;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+  width: 100%;
 }
 
 /* About */
@@ -389,7 +406,7 @@ hr {
   background-color: #D6D6D6;
   font-family: ISO-Light;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   position: absolute;
   width: 100%;
 }
@@ -398,7 +415,7 @@ hr {
   height: 35%;
   width: 8%;
   position: absolute;
-  padding: 35px 80px 0px 80px;
+  padding: 35px 80px 0px 100px;
 }
 
 .about {
@@ -408,7 +425,7 @@ hr {
 }
 
 .copyright {
-  padding: 40px 80px 35px 40px;
+  padding: 40px 80px 35px 300px;
   font-family: ISO-Light; 
   color: #939598;
   font-size: 12px;
@@ -419,7 +436,7 @@ hr {
   height: 35%;
   width: 8%;
   position: absolute;
-  padding: 35px 80px 0px 80px;
+  padding: 35px 80px 0px 100px;
 }
 
 /* Step Two */
@@ -549,7 +566,7 @@ hr {
   background-color: #D6D6D6;
   font-family: ISO-Light;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   position: absolute;
   width: 100%;
   top: 1230px;
