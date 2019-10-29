@@ -27,6 +27,18 @@
   url("../fonts/ISOv0.6-Medium.svg#filename") format("svg");
 }
 
+body {
+  background-color: #D6D6D6;
+  max-height: 1400px;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Header Nav Links */
+
 .linknav {
   display: flex;
   justify-content: space-between;
@@ -60,32 +72,26 @@
   margin-top: -154px;
 }
 
-.linkImage1:hover {
-  content: url(images/01-yellow.png);
+.linkImage1 {
   width: 100%;
   transform: scale(1.5, 1.5);
   margin-top: -180px;
 }
 
+.linkImage1:visited {
+  text-decoration: none;
+}
+
+.linkImage1:link {
+  text-decoration: none;
+}
 /*
-nav {
-  font-family: ISO;
-  justify-content: space-between;
-  display: flex;
-  flex-direction: row;
-  padding: 40px 80px;
-  border: none;
+.linkImage1:hover {
+  content: url(../images/01-yellow.png);
 }
 */
-
-body {
-  background-color: #D6D6D6;
-  max-height: 1400px;
-  scroll-behavior: smooth;
-}
-
-html {
-  scroll-behavior: smooth;
+.linkImage1:active {
+  text-decoration: none;
 }
 
 /* Link Navigation */
@@ -110,39 +116,6 @@ html {
   color: white;
 }
 
-/* Home Page Footer Links */
-/*
-.footerMainDescrip:visited {
-  text-decoration: none;
-  color: white;
-}
-
-.footerMainDescrip:link {
-  text-decoration: none;
-  color: white;
-}
-
-.footerMainDescrip:hover {
-  text-decoration: none;
-  color: black;
-}
-
-.footerMainDescrip:active {
-  text-decoration: none;
-  color: white;
-}
-
-.footerMainImage:hover {
-  content: url(../images/down-arrow-black.png);
-  display: block;
-  position: fixed;
-  bottom: 0;
-  padding: 0px 630px;
-  width: 1%;
-  height: 1%;
-  padding-bottom: 40px;
-}
-*/
 /* General Links */
 
 a:visited {
