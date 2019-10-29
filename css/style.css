@@ -159,12 +159,12 @@ img {
 }
 
 .footerMainImage {
-  display: block;
-  bottom: 0;
-  padding: 0px 630px 0px 633px;
+  display: flex;
+  justify-content: center;
   width: 1%;
   height: 1%;
   padding-bottom: 40px;
+  padding-top: 0px;
 }
 
 .myVideo {
