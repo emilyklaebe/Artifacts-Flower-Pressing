@@ -27,6 +27,15 @@
   url("../fonts/ISOv0.6-Medium.svg#filename") format("svg");
 }
 
+@font-face {
+  font-family: "magpie";
+  src: url("../fonts/Magpie_Trial_Rg.eot");
+  src:
+  url("../fonts/Magpie_Trial_Rg.woff") format("woff"),
+  url("../fonts/Magpie_Trial_Rg.otf") format("opentype"),
+  url("../fonts/Magpie_Trial_Rg.svg#filename") format("svg");
+}
+
 body {
   background-color: #D6D6D6;
   max-height: 1400px;
